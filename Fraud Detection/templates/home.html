@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insure AI</title>
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Insure AI</h1>
+        <p><i><u>Ensuring & Preventing</i></u></p>
+        <form action="{{ url_for('predict')}}" method="post">
+            <div class="row">
+                <div class="column">
+                    <label for="name">Months as Customer</label>
+                    <input type="number"   step="0.01" id="first" name="months_as_customer" required="required">
+                </div>
+                <div class="column">
+                    <label for="email">Policy Deductable</label>
+                    <input type="number"  id="second" name="policy_deductable" required="required">
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="subject">Umbrella Limit</label>
+                    <input type="number" id="third" name="umbrella_limit" required="required">
+                </div>
+                <div class="column">
+                    <label for="contact">Capital Gains</label>
+                    <input type="number" id="fourth" name="capital_gains" required="required">
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="issue">Capital Loss</label>
+                    <input type="number" id="fifth" name="capital_loss" required="required">
+                </div>
+                <div class="column">
+                    <label for="issue">Incident @ Hour of the day</label>
+                    <input type="number"  id="sixth" name="incident_hour_of_the_day" required="required">
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="issue">No of Vehicles Involved</label>
+                    <input type="number" id="seventh" name="numbers_of_vehicles_involved" required="required">
+                </div>
+                <div class="column">
+                    <label for="issue">Bodily Injuries</label>
+                    <input type="number"  id="eight" name="bodyly_injuries" required="required">
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="issue">Witnesses</label>
+                    <input type="number" id="nine" name="witnesses" required="required">
+                </div>
+                <div class="column">
+                    <label for="issue">Injury Claim</label>
+                    <input type="number" id="ten" name="injury_claim" required="required">
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="issue">Property Claim</label>
+                    <input type="number"  id="eleven" name="property_claim" required="required">
+                </div>
+                <div class="column">
+                    <label for="issue">Vehicle Claim</label>
+                    <input type="number"  id="twelve" name="vehicle_claim" required="required">
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="issue">Annual Premium</label>
+                    <input   id="thirteen" name="policy_annual_premium" required="required">
+                </div>
+                
+            </div>
+            <div class="row">      
+                <div class="column">
+                    <label for="issue">Education Level?</label><br>
+                    <select name="insured_education_level" id="issue" required="required">
+                    <option value="insured_education_level_College">insured_education_level_College</option>
+                    <option value="insured_education_level_HighSchool">insured_education_level_HighSchool</option>
+                    <option value="insured_education_level_JD">insured_education_level_JD</option>
+                    <option value="insured_education_level_MD">insured_education_level_MD</option>
+                    <option value="insured_education_level_Masters">insured_education_level_Masters</option>
+                    <option value="insured_education_level_PhD">insured_education_level_PhD</option>
+                    <option value="insured_education_level_Associate">insured_education_level_Associate</option>
+                    </select>
+                </div>
+                <div class="column">
+                    <label for="issue">Sex of the induvial?</label><br>
+                    <select name="insured_sex" id="issue" required="required">
+                        <option value="insured_sex_MALE">insured_sex_MALE</option>
+                        <option value="insured_sex_FEMALE">insured_sex_FEMALE</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="issue">What is the Occupation?</label>
+                    <select name="insured_occupation" id="issue" required="required">
+                        <option value="insured_occupation_armed_forces">insured_occupation_armed_forces</option>
+                        <option value="insured_occupation_craft_repair">insured_occupation_craft_repair</option>
+                        <option value="insured_occupation_exec_managerial">insured_occupation_exec_managerial</option>
+                        <option value="insured_occupation_farming_fishing">insured_occupation_farming_fishing</option>
+                        <option value="insured_occupation_handlers_cleaners">insured_occupation_handlers_cleaners</option>
+                        <option value="insured_occupation_machine_op_inspct">insured_occupation_machine_op_inspct</option>
+                        <option value="insured_occupation_other_service">insured_occupation_other_service</option>
+                        <option value="insured_occupation_priv_house_serv">insured_occupation_priv_house_serv</option>
+                        <option value="insured_occupation_prof_specialty">insured_occupation_prof_specialty</option>
+                        <option value="insured_occupation_protective_serv">insured_occupation_protective_serv</option>
+                        <option value="insured_occupation_sales">insured_occupation_sales</option>
+                        <option value="insured_occupation_tech_support">insured_occupation_tech_support</option>
+                        <option value="insured_occupation_transport_moving">insured_occupation_transport_moving</option>
+                        <option value="insured_occupation_adm_clerical">insured_occupation_adm_clerical</option>
+                    </select>
+                </div>
+                <div class="column">
+                    <label for="issue">Insured Relationship?</label><br>
+                    <select name="insured_relationship" id="issue" required="required">
+                        <option value="insured_relationship_not_in_family">insured_relationship_not_in_family</option>
+                        <option value="insured_relationship_other_relative">insured_relationship_other_relative</option>
+                        <option value="insured_relationship_own_child">insured_relationship_own_child</option>
+                        <option value="insured_relationship_unmarried">insured_relationship_unmarried</option>
+                        <option value="insured_relationship_wife">insured_relationship_wife</option>
+                        <option value="insured_relationship_husband">insured_relationship_husband</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="issue">What is the incident type?</label>
+                    <select name="incident_type" id="issue" required="required">
+                        <option value="incident_type_ParkedCar">incident_type_ParkedCar</option>
+                <option value="incident_type_SingleVehicleCollision">incident_type_SingleVehicleCollision</option>
+                <option value="incident_type_VehicleTheft">incident_type_VehicleTheft</option>
+                <option value="incident_type_Multi-vehicleCollision">incident_type_Multi-vehicleCollision</option>
+                    </select>
+                </div>
+                <div class="column">
+                    <label for="issue">What is the Collision type?</label>
+                    <select name="collision_type" id="issue" required="required">
+                        <option value="collision_type_RearCollision">collision_type_RearCollision</option>
+                        <option value="collision_type_SideCollision">collision_type_SideCollision</option>
+                        <option value="collision_type_FrontCollision">collision_type_FrontCollision</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="issue">What is the incident Severity?</label>
+                    <select name="incident_severity" id="issue" required="required">
+                        <option value="incident_severity_MinorDamage">incident_severity_MinorDamage</option>
+                        <option value="incident_severity_TotalLoss">incident_severity_TotalLoss</option>
+                        <option value="incident_severity_TrivialDamage">incident_severity_TrivialDamage</option>
+                        <option value="incident_severity_MajorDamage">incident_severity_MajorDamage</option>
+                    </select>
+                </div>
+                 <div class="column">
+                    <label for="issue">What are The Authorities Contacted?</label>
+                    <select name="authorities_contacted" id="issue" required="required">
+                        <option value="authorities_contacted_Fire">authorities_contacted_Fire</option>
+                        <option value="authorities_contacted_None">authorities_contacted_None</option>
+                        <option value="authorities_contacted_Other">authorities_contacted_Other</option>
+                        <option value="authorities_contacted_Police">authorities_contacted_Police</option>
+                        <option value="authorities_contacted_Ambulance">authorities_contacted_Ambulance</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="issue">Is there a  Property Damage?</label><br>
+                    <select name="property_damage" id="issue" required="required">
+                        <option value="property_damage_YES">property_damage_YES</option>
+                        <option value="property_damage_NO">property_damage_NO</option>
+                    </select>
+                </div>
+                 <div class="column">
+                    <label for="issue">Is the Police Report Available?</label>
+                    <select name="police_report_available" id="issue" required="required">
+                        <option value="police_report_available_YES">police_report_available_YES</option>
+                        <option value="police_report_available_NO">police_report_available_NO</option>
+                    </select>
+                </div>
+            </div>
+            <button>Predict</button>
+        </form>
+        <br><br><h3>{{ prediction_text }}<h3>
+    </div>
+<style>
+
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+}
+body{
+    height: 100vh;
+    background-color: lavender;
+}
+.container{
+    background-color: white;
+    width: 70%;
+    min-width: 420px;
+    padding: 35px 50px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px 10px #888888;
+    
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    color: #1c093c;
+}
+h1:hover{
+    text-decoration: underline;
+}
+p{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    color: #606060;
+    font-size: 14px;
+    font-weight: 400;
+}
+form{
+    width: 100%;
+    position: relative;
+    margin: 30px auto 0 auto;
+}
+.row{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-gap: 20px 30px;
+    margin-bottom: 20px;
+}
+label{
+    color: #1c093c;
+    font-size: 14px;
+}
+textarea,
+input{
+    width: 100%;
+    font-weight: 400;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1.2px solid #c4cae0;
+    margin-top: 5px;
+}
+textarea{
+    resize: none;
+}
+textarea:focus,
+input:focus{
+    outline: none;
+    border-color: black;
+}
+button{
+    border: 2px solid black;
+    padding: 10px 100px;
+    align-items: center;
+    background: white;
+    color: black;
+    border-radius: 3px;
+    place-items: center;
+    position: relative;
+    left: 35%;   
+    top: 3vh; 
+}
+
+h3{
+    text-align: center; 
+    margin-left: -32px;
+}
+
+
+#issue {
+            width: 437px;
+            height: 30px;
+            background-color: white;
+
+}
+
+</style>
+</body>
+</html>
