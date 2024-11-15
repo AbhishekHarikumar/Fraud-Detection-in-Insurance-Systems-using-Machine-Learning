@@ -4,6 +4,9 @@
 
 <p align="justify"> Fraud Detection Model that utilizes machine learning to predict whether a claim is fraudulent or legitimate based on the given input. The model is deployed using Flask, along with a user-friendly UI interface that provides access to this functionality. It is trained using Extreme Gradient Boosting Trees, leveraging a wide range of randomly drawn data. The model is generalized with an accuracy of 83% and achieves a perfect balance between precision and recall for optimal performance. The RSA Cryptography Algorithm is implemented to ensure secure access to the model and prevent unauthorized usage. </p>
 
+<h2 align = "left">Objectives</h2>
+
+
 <h2 align="left">Tech Stack</h2>
 
 - Programming Language - Python
@@ -12,9 +15,6 @@
 - Machine Learning - Logistic Regression, Random Forest, Extreme Gradient Boosting Trees
 - Web Framework - Flask
 - Security - RSA
-
-<h2 align = "left">Objectives</h2>
-
   
 <h2 align="left">Process Workflow</h2>
 
