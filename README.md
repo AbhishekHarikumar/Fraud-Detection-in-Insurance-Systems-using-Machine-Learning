@@ -12,7 +12,7 @@
 - Machine Learning - Logistic Regression, Random Forest, Extreme Gradient Boosting Trees
 - Web Framework - Flask
 - Security - RSA
-<h2 align="left">Key Activities</h2>
+<h2 align="left">Steps Followed</h2>
 
 
 - Increased fraud security prevention by 20% by developing a secure insurance framework with RSA cryptography and XG Boosting Trees with an accuracy of 83%.
