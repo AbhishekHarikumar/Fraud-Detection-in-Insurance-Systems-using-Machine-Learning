@@ -6,7 +6,7 @@
 - Programming Language - Python
 - Development Environment - Jupyter Notebook
 - Version Control and Collaboration - GitHub
-
+- Machine Learning - Logistic Regression, Random Forest, Extreme Gradient Boosting Trees
 <h1 align="left">Key Activities</h1>
 
 - Developed a secure, automated insurance framework using RSA cryptography and XGBoost. 
