@@ -1,7 +1,7 @@
 # Fraud-Detection-in-Insurance-Systems-using-Machine-Learning
 
 
-<h1 align="left">Tech Stack</h1>
+<h2 align="left">Tech Stack</h2>
 
 - Programming Language - Python
 - Development Environment - Jupyter Notebook
