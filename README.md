@@ -7,6 +7,8 @@
 <h2 align = "left">Objectives</h2>
 
 
+<h2 align = "left">Data Structure</h2>
+
 <h2 align="left">Tech Stack</h2>
 
 - Programming Language - Python
