@@ -3,9 +3,9 @@
 
 <h1 align="left">Tech Stack</h1>
 
-- Python
-- Jupyter Notebook
-- Github
+- Programming Language - Python
+- Development Environment - Jupyter Notebook
+- Version Control and Collaboration - GitHub
 
 <h1 align="left">Key Activities</h1>
 
