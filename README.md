@@ -7,7 +7,9 @@
 - Development Environment - Jupyter Notebook
 - Version Control and Collaboration - GitHub
 - Machine Learning - Logistic Regression, Random Forest, Extreme Gradient Boosting Trees
-<h1 align="left">Key Activities</h1>
+- Web Framework - Flask
+- Security - RSA
+<h2 align="left">Key Activities</h2>
 
 
 - Increased fraud security prevention by 20% by developing a secure insurance framework with RSA cryptography and XG Boosting Trees with an accuracy of 83%.
@@ -20,7 +22,7 @@
 
 - Published in the International Journal of Research Publication and Reviews(A+ Grade).
 
-<h1 align="left">References</h1>
+<h2 align="left">References</h2>
 
 - G. Kowshalya and M. Nandhini, ``Predicting fraudulent claims in automobile insurance,'' in Proc. 2nd Int. Conf. Inventive Commun. Comput. Technol. (ICICCT), Coimbatore, India, Apr. 2018, pp. 1338-1343. 
 
