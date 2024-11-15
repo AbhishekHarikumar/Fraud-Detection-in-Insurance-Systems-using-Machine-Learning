@@ -7,7 +7,7 @@
 - Jupyter Notebook
 - Github
 
-<h1 align="left">Executive Summary</h1>
+<h1 align="left">Key Activities</h1>
 
 - Developed a secure, automated insurance framework using RSA cryptography and XGBoost. 
 
