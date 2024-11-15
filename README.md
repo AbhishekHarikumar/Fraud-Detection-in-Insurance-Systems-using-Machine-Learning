@@ -9,11 +9,16 @@
 - Machine Learning - Logistic Regression, Random Forest, Extreme Gradient Boosting Trees
 <h1 align="left">Key Activities</h1>
 
-- Developed a secure, automated insurance framework using RSA cryptography and XGBoost. 
 
-- Reduced fraud rates significantly through a comprehensive fraud detection system.
+- Increased fraud security prevention by 20% by developing a secure insurance framework with RSA cryptography and XG Boosting Trees with an accuracy of 83%.
 
- - Implemented machine learning models to predict fraudulent claims, increasing detection accuracy by 40%.
+- Performed EDA and researched to gather findings necessary for the model building.
+
+- Compared multiple machine learning models to decide which makes the best fit.
+
+- Developed and put into use a thorough fraud detection system user interface (UI) utilising Flask and Python to provide rapid and effective UI interaction to lower financial crime.
+
+- Published in the International Journal of Research Publication and Reviews(A+ Grade).
 
 <h1 align="left">References</h1>
 
