@@ -1,5 +1,12 @@
 # Fraud-Detection-in-Insurance-Systems-using-Machine-Learning
 
+
+<h1 align="left">Tech Stack Used</h1>
+
+- Python
+- Jupyter Notebook
+- Github
+
 ✵ Developed a secure, automated insurance framework using RSA cryptography and XGBoost. 
 
 ✵ Reduced fraud rates significantly through a comprehensive fraud detection system.
