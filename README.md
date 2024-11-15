@@ -7,11 +7,13 @@
 - Jupyter Notebook
 - Github
 
-✵ Developed a secure, automated insurance framework using RSA cryptography and XGBoost. 
+<h1 align="left">Executive Summary</h1>
 
-✵ Reduced fraud rates significantly through a comprehensive fraud detection system.
+- Developed a secure, automated insurance framework using RSA cryptography and XGBoost. 
 
- ✵ Implemented machine learning models to predict fraudulent claims, increasing detection accuracy by 40%.
+- Reduced fraud rates significantly through a comprehensive fraud detection system.
+
+ - Implemented machine learning models to predict fraudulent claims, increasing detection accuracy by 40%.
 
  References:- 
 
