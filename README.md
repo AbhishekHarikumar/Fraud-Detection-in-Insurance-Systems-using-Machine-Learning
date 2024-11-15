@@ -1,4 +1,4 @@
-# Fraud-Detection-in-Insurance-Systems-using-Machine-Learning
+# Fraud Detection Model in Insurance Systems using Machine-Learning
 
 
 <h2 align="left">Tech Stack</h2>
