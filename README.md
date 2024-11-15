@@ -15,7 +15,7 @@
 
  - Implemented machine learning models to predict fraudulent claims, increasing detection accuracy by 40%.
 
- References:- 
+<h1 align="left">References</h1>
 
 [1] G. Kowshalya and M. Nandhini, ``Predicting fraudulent claims in automobile insurance,'' in Proc. 2nd Int. Conf. Inventive Commun. Comput. Technol. (ICICCT), Coimbatore, India, Apr. 2018, pp. 1338-1343. 
 
