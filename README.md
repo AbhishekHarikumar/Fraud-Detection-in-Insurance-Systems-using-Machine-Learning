@@ -1,7 +1,7 @@
 # Fraud-Detection-in-Insurance-Systems-using-Machine-Learning
 
 
-<h1 align="left">Tech Stack Used</h1>
+<h1 align="left">Tech Stack</h1>
 
 - Python
 - Jupyter Notebook
