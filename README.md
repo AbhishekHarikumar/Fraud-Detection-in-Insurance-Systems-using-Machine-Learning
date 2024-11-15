@@ -12,6 +12,9 @@
 - Machine Learning - Logistic Regression, Random Forest, Extreme Gradient Boosting Trees
 - Web Framework - Flask
 - Security - RSA
+
+<h2 align = "left">Objectives</h2>
+
   
 <h2 align="left">Process Workflow</h2>
 
