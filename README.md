@@ -13,13 +13,15 @@
 
 <h2 align="left">Tech Stack</h2>
 
-- Programming Language - Python
-- Development Environment - Jupyter Notebook
-- Version Control and Collaboration - GitHub
-- Machine Learning - Logistic Regression, Decision Tree Classifier, Support Vector Classifier (SVC), K-Nearest Neighbors Classifier, XGBoost Classifier.
-- Web Framework - Flask
-- Security - RSA
-  
+- Programming Language - Python  
+- Development Environment - Jupyter Notebook  
+- Version Control and Collaboration - GitHub  
+- Data Analytics - Pandas, NumPy, Scikit-learn  
+- Machine Learning - Logistic Regression, Decision Tree Classifier, Support Vector Classifier (SVC), K-Nearest Neighbors Classifier, XGBoost Classifier  
+- Data Visualization - Matplotlib, Seaborn  
+- Web Framework - Flask  
+- Security - RSA  
+
 <h2 align="left">Process Workflow</h2>
 
 - <p align="justify">Conduct in-depth research on datasets available on the internet, with the goal of finding one that is diverse and large in categories and numbers, simulating real-world scenarios. The Insurance Fraud Detection Dataset on Kaggle satisfies these conditions.</p>
