@@ -11,7 +11,6 @@
 <h2 align = "left">Data Structure</h2>
 
 
-
 <h2 align="left">Tech Stack</h2>
 
 - Programming Language - Python
@@ -25,14 +24,30 @@
 
 - <p align="justify"> Conduct Indepth Research of the datasets available in the internet, with the goal of finding the one which is diverse and huge in categories and number which simulates, real world scenarios. The Insurance Fraud Detection Dataset on kaggle satisfies the following conditions.</p>
 
-- Perform Analysis on the data extracted from Kaggle, to get an understanding of the data's metrics as follows:
-  - Missing Values(1000 records) 
+- <p align="justify"> Perform Exploratory Data Analysis(Univariate, BiVariate and MultiVariate)Analysis on the data extracted from Kaggle, to get an understanding of the data's metrics as follows: </p>
+  - Missing Values(1000 records) - Replaced with IQR(Upper and Lower range)
   - Categorical Types(21 Columns)
   - Continous Types (18 Columns)
   - Skewness
   - Outliers
   - Imbalance (No 75% :Yes 24%)
-    
+
+- <p align="justify"> Removal of Unnecessary columns(Correlation), imbalance(SMOTE), Skewness(Pearson's First Coefficient), Outliers(Trimming) to get the data in the appropriate manner for model building, with 34 independent feature and 1 dependent feature</p>.
+
+- <p align="justify"> Carried out model testing with these machine learning algorithm with a confusion matrix, accuracy and F1 metric to understand each's performance. Used Hyperparameters to be able to get each one's best performance(GridSearchCV).</p>.
+  
+  - Logistic Regression
+  - Decision Tree Classifier
+  - Support Vector Classifier (SVC)
+  - K-Nearest Neighbors Classifier
+  - XGBoost Classifier
+
+- Calculated Cross Validation Score(cross validation score) to check the performance of each model.Used AUC ROC Curve and Confusion matrix to visualise the performance.
+
+- Pickled the best performing model.
+
+- Developed the flask framework along with RSA Crypto Algorithm for authorized access. 
+  
 <h2 align="left">Business Value</h2>
 
 - <p align="justify"> Increased fraud security prevention by 20% by developing a secure insurance framework with RSA cryptography and  a  fraud detection model using Extreme Gradient Boosting Trees with an accuracy of 83%.</p>
