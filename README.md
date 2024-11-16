@@ -6,7 +6,7 @@
 
 <h2 align = "left">Objective</h2>
 
-<p align="justify"> The main objective of this project is to build a model that accurately classifies whether a prediction is fraudulent or not, ensuring authorized access.</p>
+<p align="justify"> To build a model that accurately classifies whether a prediction is fraudulent or not, ensuring authorized access.</p>
 
 <h2 align = "left">Data Structure</h2>
 
