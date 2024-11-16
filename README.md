@@ -10,6 +10,8 @@
 
 <h2 align = "left">Data Structure</h2>
 
+
+
 <h2 align="left">Tech Stack</h2>
 
 - Programming Language - Python
@@ -21,21 +23,23 @@
   
 <h2 align="left">Process Workflow</h2>
 
+- <p align="justify"> Conduct Indepth Research of the datasets available in the internet, with the goal of finding the one which is diverse and huge in categories and number which simulates, real world scenarios. The Insurance Fraud Detection Dataset on kaggle satisfies the following conditions.</p>
 
-- Increased fraud security prevention by 20% by developing a secure insurance framework with RSA cryptography and XG Boosting Trees with an accuracy of 83%.
-
-- Performed EDA and researched to gather findings necessary for the model building.
-
-- Compared multiple machine learning models to decide which makes the best fit.
-
-- Developed and put into use a thorough fraud detection system user interface (UI) utilising Flask and Python to provide rapid and effective UI interaction to lower financial crime.
-
-- Published in the International Journal of Research Publication and Reviews(A+ Grade).
-  
+- Perform Analysis on the data extracted from Kaggle, to get an understanding of the data's metrics as follows:
+  - Missing Values(1000 records) 
+  - Categorical Types(21 Columns)
+  - Continous Types (18 Columns)
+  - Skewness
+  - Outliers
+  - Imbalance (No 75% :Yes 24%)
+    
 <h2 align="left">Business Value</h2>
 
+- <p align="justify"> Increased fraud security prevention by 20% by developing a secure insurance framework with RSA cryptography and  a  fraud detection model using Extreme Gradient Boosting Trees with an accuracy of 83%.</p>
 
+- <p align="justify"> Developed and put into use a thorough fraud detection system user interface (UI) utilising Flask to provide  effective UI interaction to lower financial crime.</p>
 
+- <p align="justify"> Published in the International Journal of Research Publication and Reviews(A+ Grade) contibuting to the community. </p>
 
 <h2 align="left">References</h2>
 
