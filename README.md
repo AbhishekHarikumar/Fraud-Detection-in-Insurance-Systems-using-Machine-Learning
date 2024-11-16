@@ -35,6 +35,7 @@
 - <p align="justify">Remove unnecessary columns (based on correlation), address imbalance (using SMOTE), correct skewness (using Pearson's First Coefficient), and handle outliers (trimming) to prepare the data appropriately for model building, with 34 independent features and 1 dependent feature.</p>
 
 - <p align="justify">Test models using the following machine learning algorithms, evaluating performance with a confusion matrix, accuracy, and F1 score. Hyperparameter tuning was performed using GridSearchCV to optimize each model's performance:</p>
+
   - Logistic Regression
   - Decision Tree Classifier
   - Support Vector Classifier (SVC)
