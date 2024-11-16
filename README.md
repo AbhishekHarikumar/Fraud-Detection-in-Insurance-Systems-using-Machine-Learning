@@ -59,24 +59,24 @@
 
 <h2 align="left">References</h2>
 
-<p align="justify">- G. Kowshalya and M. Nandhini, “Predicting fraudulent claims in automobile insurance,” in Proc. 2nd Int. Conf. Inventive Commun. Comput. Technol. (ICICCT), Coimbatore, India, Apr. 2018, pp. 1338–1343.</p>
+<p align="justify">[1] G. Kowshalya and M. Nandhini, “Predicting fraudulent claims in automobile insurance,” in Proc. 2nd Int. Conf. Inventive Commun. Comput. Technol. (ICICCT), Coimbatore, India, Apr. 2018, pp. 1338–1343.</p>
 
-<p align="justify">- K. Supraja and S. J. Saritha, “Robust fuzzy rule-based technique to detect frauds in vehicle insurance,” in Proc. Int. Conf. Energy, Commun., Data Anal. Soft Comput. (ICECDS), Chennai, India, Aug. 2017, pp. 3734–3739.</p>
+<p align="justify">[2] K. Supraja and S. J. Saritha, “Robust fuzzy rule-based technique to detect frauds in vehicle insurance,” in Proc. Int. Conf. Energy, Commun., Data Anal. Soft Comput. (ICECDS), Chennai, India, Aug. 2017, pp. 3734–3739.</p>
 
-<p align="justify">- C. Sun, Q. Li, H. Li, Y. Shi, S. Zhang, and W. Guo, “Patient cluster divergence-based healthcare insurance fraudster detection,” IEEE Access, vol. 7, pp. 14162–14170, Dec. 2019.</p>
+<p align="justify">[3] C. Sun, Q. Li, H. Li, Y. Shi, S. Zhang, and W. Guo, “Patient cluster divergence-based healthcare insurance fraudster detection,” IEEE Access, vol. 7, pp. 14162–14170, Dec. 2019.</p>
 
-<p align="justify">- K. Vassiljeva, A. Tepljakov, E. Petlenkov, and E. Netsajev, “Computational intelligence approach for estimation of vehicle insurance risk level,” in Proc. Int. Joint Conf. Neural Netw. (IJCNN), May 2017, pp. 4073–4078.</p>
+<p align="justify">[4] K. Vassiljeva, A. Tepljakov, E. Petlenkov, and E. Netsajev, “Computational intelligence approach for estimation of vehicle insurance risk level,” in Proc. Int. Joint Conf. Neural Netw. (IJCNN), May 2017, pp. 4073–4078.</p>
 
-<p align="justify">- D. Muller and Y.-F. Te, “Insurance premium optimisation using motor insurance policies: A business growth classification approach,” in Proc. IEEE Int. Conf. Big Data (Big Data), Dec. 2017, pp. 4154–4158.</p>
+<p align="justify">[5] D. Muller and Y.-F. Te, “Insurance premium optimisation using motor insurance policies: A business growth classification approach,” in Proc. IEEE Int. Conf. Big Data (Big Data), Dec. 2017, pp. 4154–4158.</p>
 
-<p align="justify">- T. Chen and C. Guestrin, “XGBoost: A scalable tree boosting system,” in Proc. ACM Int. Conf. Knowl. Discovery Data Mining (SIGKDD), San Francisco, CA, USA, Aug. 2016, pp. 785–794.</p>
+<p align="justify">[6] T. Chen and C. Guestrin, “XGBoost: A scalable tree boosting system,” in Proc. ACM Int. Conf. Knowl. Discovery Data Mining (SIGKDD), San Francisco, CA, USA, Aug. 2016, pp. 785–794.</p>
 
-<p align="justify">- N. Dhieb, H. Ghazzai, H. Besbes, and Y. Massoud, “A very deep transfer learning model for vehicle damage detection and localisation,” in Proc. 31st Int. Conf. Microelectron. (ICM), Cairo, Egypt, Dec. 2019, pp. 158–161.</p>
+<p align="justify">[7] N. Dhieb, H. Ghazzai, H. Besbes, and Y. Massoud, “A very deep transfer learning model for vehicle damage detection and localisation,” in Proc. 31st Int. Conf. Microelectron. (ICM), Cairo, Egypt, Dec. 2019, pp. 158–161.</p>
 
-<p align="justify">- K. Supraja and S. J. Saritha, “Robust fuzzy rule-based technique to detect frauds in vehicle insurance,” in Proc. Int. Conf. Energy, Commun., Data Anal. Soft Comput. (ICECDS), Chennai, India, Aug. 2017, pp. 3734–3739.</p>
+<p align="justify">[8] K. Supraja and S. J. Saritha, “Robust fuzzy rule-based technique to detect frauds in vehicle insurance,” in Proc. Int. Conf. Energy, Commun., Data Anal. Soft Comput. (ICECDS), Chennai, India, Aug. 2017, pp. 3734–3739.</p>
 
-<p align="justify">- T. Badriyah, L. Rahmaniah, and I. Syarif, “Nearest neighbour and statistics method-based approach for detecting fraud in auto insurance,” in Proc. Int. Conf. Appl. Eng. (ICAE), Batam, Indonesia, Oct. 2018, pp. 1–5.</p>
+<p align="justify">[9] T. Badriyah, L. Rahmaniah, and I. Syarif, “Nearest neighbour and statistics method-based approach for detecting fraud in auto insurance,” in Proc. Int. Conf. Appl. Eng. (ICAE), Batam, Indonesia, Oct. 2018, pp. 1–5.</p>
 
-<p align="justify">- J.-M. Long, Z.-F. Yan, Y.-L. Shen, W.-J. Liu, and Q.-Y. Wei, “Detection of epilepsy using MFCC-based features and XGBoost,” in Proc. 11th Int. Congr. Image Signal Process., Biomed. Eng. Informat. (CISP-BMEI), Beijing, China, Oct. 2018, pp. 1–4.</p>
+<p align="justify">[10] J.-M. Long, Z.-F. Yan, Y.-L. Shen, W.-J. Liu, and Q.-Y. Wei, “Detection of epilepsy using MFCC-based features and XGBoost,” in Proc. 11th Int. Congr. Image Signal Process., Biomed. Eng. Informat. (CISP-BMEI), Beijing, China, Oct. 2018, pp. 1–4.</p>
 
-<p align="justify">- <a href="https://youtu.be/B4if20qDuZc?si=xfGx276NQD5ELUl3">https://youtu.be/B4if20qDuZc?si=xfGx276NQD5ELUl3</a></p>
+<p align="justify">[11] <a href="https://youtu.be/B4if20qDuZc?si=xfGx276NQD5ELUl3">https://youtu.be/B4if20qDuZc?si=xfGx276NQD5ELUl3</a></p>
