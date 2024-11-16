@@ -25,6 +25,7 @@
 - <p align="justify">Conduct in-depth research on datasets available on the internet, with the goal of finding one that is diverse and large in categories and numbers, simulating real-world scenarios. The Insurance Fraud Detection Dataset on Kaggle satisfies these conditions.</p>
 
 - <p align="justify">Perform Exploratory Data Analysis (Univariate, Bivariate, and Multivariate) on the data extracted from Kaggle to understand the data's metrics as follows:</p>
+
   - Missing Values (1000 records) - Replaced using IQR (Upper and Lower range)
   - Categorical Types (21 columns)
   - Continuous Types (18 columns)
