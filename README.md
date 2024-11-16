@@ -18,7 +18,7 @@
 - Data Visualisation - Matplotlib, Seaborn  
 - Web Framework - Flask  
 - Security - RSA
-- Lifecycle - Data Science LifeCycle + OOPS Principles
+- Lifecycle - Data Science Lifecycle + OOPS Principles
 
 <h2 align="left">Process Workflow</h2>
 
