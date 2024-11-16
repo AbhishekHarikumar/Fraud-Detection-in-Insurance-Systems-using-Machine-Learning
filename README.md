@@ -17,7 +17,8 @@
 - Machine Learning - Logistic Regression, Decision Tree Classifier, Support Vector Classifier (SVC), K-Nearest Neighbours Classifier, XGBoost Classifier  
 - Data Visualisation - Matplotlib, Seaborn  
 - Web Framework - Flask  
-- Security - RSA  
+- Security - RSA
+- Lifecycle - Data Science LifeCycle + OOPS Principles
 
 <h2 align="left">Process Workflow</h2>
 
