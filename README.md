@@ -22,32 +22,31 @@
   
 <h2 align="left">Process Workflow</h2>
 
-- <p align="justify"> Conduct Indepth Research of the datasets available in the internet, with the goal of finding the one which is diverse and huge in categories and number which simulates, real world scenarios. The Insurance Fraud Detection Dataset on kaggle satisfies the following conditions.</p>
+- <p align="justify">Conduct in-depth research on datasets available on the internet, with the goal of finding one that is diverse and large in categories and numbers, simulating real-world scenarios. The Insurance Fraud Detection Dataset on Kaggle satisfies these conditions.</p>
 
-- <p align="justify"> Perform Exploratory Data Analysis(Univariate, BiVariate and MultiVariate)Analysis on the data extracted from Kaggle, to get an understanding of the data's metrics as follows: </p>
-  - Missing Values(1000 records) - Replaced with IQR(Upper and Lower range)
-  - Categorical Types(21 Columns)
-  - Continous Types (18 Columns)
+- <p align="justify">Perform Exploratory Data Analysis (Univariate, Bivariate, and Multivariate) on the data extracted from Kaggle to understand the data's metrics as follows:</p>
+  - Missing Values (1000 records) - Replaced using IQR (Upper and Lower range)
+  - Categorical Types (21 columns)
+  - Continuous Types (18 columns)
   - Skewness
   - Outliers
-  - Imbalance (No 75% :Yes 24%)
+  - Imbalance (No: 75%, Yes: 25%)
 
-- <p align="justify"> Removal of Unnecessary columns(Correlation), imbalance(SMOTE), Skewness(Pearson's First Coefficient), Outliers(Trimming) to get the data in the appropriate manner for model building, with 34 independent feature and 1 dependent feature</p>.
+- <p align="justify">Remove unnecessary columns (based on correlation), address imbalance (using SMOTE), correct skewness (using Pearson's First Coefficient), and handle outliers (trimming) to prepare the data appropriately for model building, with 34 independent features and 1 dependent feature.</p>
 
-- <p align="justify"> Carried out model testing with these machine learning algorithm with a confusion matrix, accuracy and F1 metric to understand each's performance. Used Hyperparameters to be able to get each one's best performance(GridSearchCV).</p>.
-  
+- <p align="justify">Test models using the following machine learning algorithms, evaluating performance with a confusion matrix, accuracy, and F1 score. Hyperparameter tuning was performed using GridSearchCV to optimize each model's performance:</p>
   - Logistic Regression
   - Decision Tree Classifier
   - Support Vector Classifier (SVC)
   - K-Nearest Neighbors Classifier
   - XGBoost Classifier
 
-- Calculated Cross Validation Score(cross validation score) to check the performance of each model.Used AUC ROC Curve and Confusion matrix to visualise the performance.
+- Calculate the cross-validation score to evaluate the performance of each model. Use the AUC-ROC curve and confusion matrix to visualize performance.
 
-- Pickled the best performing model.
+- Pickle the best-performing model.
 
-- Developed the flask framework along with RSA Crypto Algorithm for authorized access. 
-  
+- Develop a Flask framework integrated with the RSA Crypto Algorithm for authorized access.
+
 <h2 align="left">Business Value</h2>
 
 - <p align="justify"> Increased fraud security prevention by 20% by developing a secure insurance framework with RSA cryptography and  a  fraud detection model using Extreme Gradient Boosting Trees with an accuracy of 83%.</p>
