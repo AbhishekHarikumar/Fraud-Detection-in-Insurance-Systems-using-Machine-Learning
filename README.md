@@ -8,9 +8,6 @@
 
 <p align="justify"> To build a model that accurately classifies whether a prediction is fraudulent or not, ensuring authorized access.</p>
 
-<h2 align = "left">Data Structure</h2>
-
-
 <h2 align="left">Tech Stack</h2>
 
 - Programming Language - Python  
